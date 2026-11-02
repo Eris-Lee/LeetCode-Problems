@@ -7,7 +7,6 @@ class Solution(object):
         """
 
         needle_size = len(needle)
-        #window = haystack[:needle_size]
         if (len(haystack) == needle_size) and haystack == needle:
             return 0
         
